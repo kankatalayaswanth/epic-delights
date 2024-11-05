@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #fce4ec 0%, #ffebee 100%);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        .menu {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+        }
+        
+        .menu h2 {
+            font-size: 3em;
+            color: #ff6347;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .menu i {
+            font-style: italic;
+            font-size: 1.2em;
+            color: #666;
+            display: block;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .menu-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff7f7;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .menu-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .menu-item h3 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .menu-item span {
+            font-size: 1.5em;
+            color: orangered;
+            float: right;
+        }
+        
+        .menu-item p {
+            font-size: 1.1em;
+            color: #666;
+            margin: 0;
+        }
+        
+        .btn {
+            padding: 12px 24px;
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            text-align: center;
+            margin-top: 20px;
+            box-shadow: 0px 4px 10px black; 
+        }
+        
+        .btn:hover {
+            background-color: #e5533a;
+            box-shadow: 0px 4px 10px black; 
+        }
+        
+        footer {
+            background-color:black;
+            text-align: center;
+            padding: 15px;
+            color: white;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;
+            box-shadow: 0px 4px 10px black; 
+        }
+    </style>
+</head>
+<body>
+<section class="menu">
+    <h2>Our Menu</h2>
+    <i>TODAY'S SPECIALS:</i>
+    <div class="menu-item">
+        <h3>Philly Cheesesteak <span>320/-</span></h3>
+        <p>Thinly sliced steak, sautéed onions, bell peppers, and melted cheese on a hoagie roll.</p>
+    </div>
+    <div class="menu-item">
+        <h3>Club Sandwich <span>350/-</span></h3>
+        <p>A triple-decker sandwich with turkey, ham, bacon, lettuce, tomato, and cheese.</p>
+    </div>
+    <div class="menu-item">
+        <h3>Classic Caesar Salad <span>370/-</span></h3>
+        <p>Romaine lettuce, Caesar dressing, croutons, and parmesan cheese.</p>
+    </div>
+    <div class="menu-item">
+        <h3>Margherita Pizza <span>310/-</span></h3>
+        <p>Fresh basil, mozzarella, and tomatoes on a crispy pizza crust.</p>
+    </div>
+    <a class="btn">Order Now</a>
+</section>
+<footer>
+    <p>&copy; 2024 EPIC DELIGHTS. All rights reserved.</p>
+</footer>
+</body>
+</html>
